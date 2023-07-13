@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="supermarket order" />
+    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="supermarket order">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/TrackOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/TrackOrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689236824039</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="supermarket order">
+      <created>1689237032084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689237032084</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

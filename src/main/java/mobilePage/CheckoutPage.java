@@ -5,6 +5,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 
 public class CheckoutPage extends MobilePageBase{
@@ -37,13 +38,16 @@ public class CheckoutPage extends MobilePageBase{
     @AndroidFindBy(id = "com.mnasat.nashmi:id/tv_total_price")
     private MobileElement totalPrice;
 
+  //  public MobileElement paymentMethods = (MobileElement) driver.findElements(By.id("com.mnasat.nashmi:id/rv_payment"));
+
+
 
 
 
     //operations
 
     public void checkCashPaymentMethod (){
-        cashCheckBtn.click();
+       cashCheckBtn.click();
 
     }
 
@@ -82,5 +86,6 @@ public class CheckoutPage extends MobilePageBase{
         placeOrderBt.click();
 
     }
+
 
 }
