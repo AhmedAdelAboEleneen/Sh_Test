@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="food cycle">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="supermarket order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CartScreenPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/FoodCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/FoodOrderDeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/FoodOrderDeliveryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/CartScreenPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/MobilePageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/MobilePageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/OrderDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/OrderDetailsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/SplashPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/SplashPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/StoreScreenPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/StoreScreenPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/WebPageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/WebPageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/allOrdersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/allOrdersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/homePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/loginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/loginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/MobileTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/MobileTestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/WebTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/WebTestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/homeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/homeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/loginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688384475074</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="supermarket order">
+      <created>1688990897112</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688990897112</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +214,8 @@
     <MESSAGE value="commit name" />
     <MESSAGE value="commit 2" />
     <MESSAGE value="food cycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="food cycle" />
+    <MESSAGE value="supermarket order" />
+    <option name="LAST_COMMIT_MESSAGE" value="supermarket order" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
