@@ -31,13 +31,14 @@ public class MobileTestBase {
 
         AndroidObject.setCapability("platformVersion", "12.0");
 
-        AndroidObject.setCapability("deviceName", "Galaxy A72");
+        AndroidObject.setCapability("deviceName", "Galaxy A52");
 
         AndroidObject.setCapability("automationName", "UiAutomator2");
 
         AndroidObject.setCapability("appPackage", "com.mnasat.nashmi");
 
         AndroidObject.setCapability("appActivity", "com.mnasat.nashmi.presentation.splash.SplashActivity");
+        AndroidObject.setCapability("autoGrantPermissions", "true");
 
         driver = new AndroidDriver <WebElement>(new URL("http://localhost:4723/"), AndroidObject);
 //        driver= (AndroidDriver) new AndroidDriver(new URL("http://localhost:4723/wd/hub"), AndroidObject);
@@ -55,11 +56,11 @@ public class MobileTestBase {
         driver = new IOSDriver<WebElement>(new URL("http://localhost:4723/wd/hub"), iOSObject);
     }*/
 
-//    @AfterSuite
-//    public void stopDriver() {
-//
-//        driver.quit();
-//    }
+  /*  @AfterSuite
+   public void stopDriver() {
+
+        driver.quit();
+    }*/
 
     //Take Screenshot when test case fail and add it in screenshot folder
     @AfterMethod
@@ -72,6 +73,10 @@ public class MobileTestBase {
             Helper.caputreScreenShoot(driver, result.getName());
 
         }
+
+    }
+    public void scrollDown (){
+        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Total Amount\").instance(0))").click();
 
     }
 }
