@@ -13,8 +13,11 @@ public class allOrdersTest extends WebTestBase {
 
     allOrdersPage allOrdersPage;
     Helper helper;
-    JavascriptExecutor js;
+    //JavascriptExecutor js;
 
+    public void scrollDown(){
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    js.executeScript("scrollBy(0,500)");}
 
 
 
@@ -31,7 +34,7 @@ public class allOrdersTest extends WebTestBase {
         allOrdersPage.uncheckDelivering();
         //allOrdersPage.checkDelivered();
         allOrdersPage.clickSearch();
-        helper.scrollDown();;
+        scrollDown();
         allOrdersPage.openOrderDetails();
         
 
