@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Supermarket_order" >
+    <test name="HappyScenario" >
+        <classes>
+            <class name="mobileTest.LoginTest" />
+            <class name="mobileTest.SupermarketTest" />
+            <class name="webTest.loginTest" />
+            <class name="webTest.homeTest" />
+            <class name="webTest.allOrdersTest" />
+        </classes>
+    </test>
+</suite>
