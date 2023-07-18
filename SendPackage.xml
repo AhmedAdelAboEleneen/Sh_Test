@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Sh_Test/src/test/java/mobileTest/SendPackageTest.java">
+        <classes>
+            <class name="mobileTest.LoginTest"></class>
+            <class name="mobileTest.SendPackageTest"></class>
+            <class name="webTest.loginTest" ></class>
+            <class name="webTest.homeTest"></class>
+            <class name="webTest.allOrdersTest"></class>
+            <class name="webTest.OrderDetailsTest"></class>
+        </classes>
+    </test>
+</suite>
