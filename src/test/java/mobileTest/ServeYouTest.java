@@ -46,7 +46,7 @@ public class ServeYouTest extends MobileTestBase {
         checkoutPage.checkCashPaymentMethod();
         scrollDownToTotalAmount();
         checkoutPage.getTotalAmount();
-        assertEquals(checkoutPage.TotalOrderPrice,"30.0 SAR");
+        assertEquals(checkoutPage.TotalAmount,"30.0 SAR");
         checkoutPage.clickPlaceOrder();
         trackOrderPage.getOrderNumber();
 

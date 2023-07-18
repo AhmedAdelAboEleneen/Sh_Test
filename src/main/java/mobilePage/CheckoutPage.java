@@ -16,7 +16,7 @@ public class CheckoutPage extends MobilePageBase{
     public CheckoutPage(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
-    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]")
+    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.ImageView")
     private MobileElement cashCheckBtn;
 
 
@@ -37,6 +37,7 @@ public class CheckoutPage extends MobilePageBase{
 
     @AndroidFindBy(id = "com.mnasat.nashmi:id/tv_total_price")
     private MobileElement totalPrice;
+
 
   //  public MobileElement paymentMethods = (MobileElement) driver.findElements(By.id("com.mnasat.nashmi:id/rv_payment"));
 
@@ -86,6 +87,8 @@ public class CheckoutPage extends MobilePageBase{
         placeOrderBt.click();
 
     }
+
+
 
 
 }
