@@ -4,36 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="food cycle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobilePage/SendPackagePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobileTest/SendPackageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="SendPackage Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/webPage/OrderDetailsWebPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webTest/OrderDetailsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/MobileTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/MobileTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/CartScreenPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/CartScreenPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/MobilePageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/MobilePageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/OrderDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/OrderDetailsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/SplashPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/SplashPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/StoreScreenPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/StoreScreenPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/WebPageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/WebPageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/allOrdersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/allOrdersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/homePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/loginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/loginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/SendPackageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/SendPackageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTest/WebTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/WebTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/MobileTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/MobileTestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/WebTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/WebTestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/homeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/homeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/loginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +57,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -80,28 +65,11 @@
       <recent name="C:\Users\Ibrahim Salah\IdeaProjects\Agent_Dashboard\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SendPackageTest.placeSendPackageOrder">
-    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Agent_Dashboard" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/NormalOrder.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/Sh_Test/SendPackage.xml">
+    <configuration name="D:/Sh_Test/SendPackage.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Sh_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobileTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mobileTest" />
-      <option name="MAIN_CLASS_NAME" value="mobileTest.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/SendPackage.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,18 +94,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalOrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Agent_Dashboard" />
+    <configuration name="OrderDetailsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Sh_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mobileTest.*" />
+          <option name="PATTERN" value="webTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/NormalOrder.xml" />
-      <option name="PACKAGE_NAME" value="mobileTest" />
-      <option name="MAIN_CLASS_NAME" value="mobileTest.NormalOrderTest" />
+      <option name="PACKAGE_NAME" value="webTest" />
+      <option name="MAIN_CLASS_NAME" value="webTest.OrderDetailsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDetailsTest.assertOnOrderDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Sh_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTest" />
+      <option name="MAIN_CLASS_NAME" value="webTest.OrderDetailsTest" />
+      <option name="METHOD_NAME" value="assertOnOrderDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -164,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SendPackageTest.placeSendPackageOrder" />
+        <item itemvalue="TestNG.D:/Sh_Test/SendPackage.xml" />
+        <item itemvalue="TestNG.OrderDetailsTest.assertOnOrderDetails" />
+        <item itemvalue="TestNG.OrderDetailsTest" />
         <item itemvalue="TestNG.LoginTest.logIN" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml" />
-        <item itemvalue="TestNG.NormalOrderTest" />
+        <item itemvalue="TestNG.SendPackageTest.placeSendPackageOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688384475074</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="SendPackage Test">
+      <created>1689256531086</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689256531086</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +241,8 @@
     <MESSAGE value="commit name" />
     <MESSAGE value="commit 2" />
     <MESSAGE value="food cycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="food cycle" />
+    <MESSAGE value="SendPackage Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="SendPackage Test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

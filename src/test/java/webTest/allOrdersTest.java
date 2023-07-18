@@ -1,12 +1,10 @@
 package webTest;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
-import mobilePage.TrackOrderPage;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
-import webPage.allOrdersPage;
 import utilities.Helper;
+import webPage.allOrdersPage;
+
 import java.util.concurrent.TimeUnit;
 
 public class allOrdersTest extends WebTestBase {
@@ -16,14 +14,13 @@ public class allOrdersTest extends WebTestBase {
     JavascriptExecutor js;
 
 
-
-
-@Test
-    public void openOrderDeatails () throws InterruptedException {
+    @Test
+    public void openOrderDeatails() throws InterruptedException {
         allOrdersPage = new allOrdersPage(driver);
-    driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
-    allOrdersPage.openAdvancedSearch();
-    Thread.sleep(3000);
+        helper = new Helper();
+        driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
+        allOrdersPage.openAdvancedSearch();
+        Thread.sleep(3000);
         allOrdersPage.setOrderNumber();
         allOrdersPage.openOrderStatusSection();
         allOrdersPage.uncheckDriverAssigned();
@@ -31,11 +28,15 @@ public class allOrdersTest extends WebTestBase {
         allOrdersPage.uncheckDelivering();
         //allOrdersPage.checkDelivered();
         allOrdersPage.clickSearch();
-        helper.scrollDown();;
+        Thread.sleep(3000);
+        helper.scrollDownIntoWebView(allOrdersPage.detailsView, driver);
         allOrdersPage.openOrderDetails();
-        
+        Thread.sleep(3000);
+        helper.switchToWindow(driver ,1);
 
- //  Assert.assertTrue(allOrdersPage.orderType.getText().contains("Order Type"));
+
+
+        //  Assert.assertTrue(allOrdersPage.orderType.getText().contains("Order Type"));
 
     }
 }

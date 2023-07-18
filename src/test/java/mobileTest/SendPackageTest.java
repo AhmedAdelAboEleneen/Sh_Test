@@ -1,28 +1,30 @@
 package mobileTest;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
 import mobilePage.CheckoutPage;
 import mobilePage.HomePage;
 import mobilePage.SendPackagePage;
+import mobilePage.TrackOrderPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utilities.Helper;
 
 public class SendPackageTest extends MobileTestBase {
     HomePage homePage;
     CheckoutPage checkoutPage;
 
+    TrackOrderPage trackOrderPage;
+
     SendPackagePage sendPackagePage;
+    Helper helper ;
     String serviceFee;
 
-    String deliveryFee;
     @Test
     public void placeSendPackageOrder() throws InterruptedException {
         homePage = new HomePage(driver);
         checkoutPage = new CheckoutPage(driver);
         sendPackagePage = new SendPackagePage(driver);
-        LoginTest loginTest = new LoginTest();
-        loginTest.logIN();
+        trackOrderPage = new TrackOrderPage(driver);
+        helper = new Helper();
         homePage.selectSendPackage();
         sendPackagePage.clickEnterLocationTo();
         sendPackagePage.clickChooseOnMapBtn();
@@ -34,16 +36,18 @@ public class SendPackageTest extends MobileTestBase {
         sendPackagePage.clickCameraOption();
         sendPackagePage.clickCapturePhotoBtn();
         sendPackagePage.clickOkBtn();
-        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Next\").instance(0))").click();
+        helper.scrollDownIntoMobileView(driver , "\"Next\"").click();
+        //driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Next\").instance(0))").click();
         serviceFee = sendPackagePage.getServiceFee();
         sendPackagePage.clickNextBtn();
         checkoutPage.checkCashPaymentMethod();
         checkoutPage.getDeliveryFee();
-        scrollDown();
-
-        //deliveryFee = checkoutPage.getDeliveryFee();
+        helper.scrollDownIntoMobileView(driver ,"\"Total Amount\"");
+        checkoutPage.getTotalAmount();
         checkoutPage.clickPlaceOrder();
         Assert.assertEquals(checkoutPage.DeliveryFee , serviceFee +" SAR");
+        trackOrderPage.getOrderNumber();
+
 
 
 

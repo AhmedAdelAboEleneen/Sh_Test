@@ -38,7 +38,7 @@ public class WebTestBase {
         // driver.navigate().to("Link live here");
     }
 
-    //  @AfterTest
+    @AfterTest
     public void stopDriver() {
 
         driver.quit();

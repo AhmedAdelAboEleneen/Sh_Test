@@ -5,11 +5,13 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 
 public class CheckoutPage extends MobilePageBase{
+    public static String TotalAmount;
     public String OrderPrice;
-    public String DeliveryFee;
+    public static String DeliveryFee;
     public String DeliveryFeeBeforeDiscount;
     public CheckoutPage(AppiumDriver<MobileElement> driver) {
         super(driver);
@@ -61,7 +63,10 @@ public class CheckoutPage extends MobilePageBase{
 
     }
 
-
+    public void getTotalAmount(){
+        MobileElement totalAmount = driver.findElement(By.id("com.mnasat.nashmi:id/tv_total_price"));
+        TotalAmount = totalAmount.getText();
+    }
 
 
 }

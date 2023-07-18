@@ -75,8 +75,5 @@ public class MobileTestBase {
         }
 
     }
-    public void scrollDown (){
-        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Total Amount\").instance(0))").click();
 
-    }
 }
