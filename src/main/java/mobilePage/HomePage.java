@@ -49,6 +49,8 @@ public class HomePage extends MobilePageBase{
     @AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]")
     private MobileElement supermarketIndustry;
 
+    @AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+    private MobileElement allowNotificationBt;
 
 
 
@@ -113,5 +115,7 @@ public class HomePage extends MobilePageBase{
 
     }
 
-
+    public void clickAllowNotification(){
+        allowNotificationBt.click();
+    }
 }

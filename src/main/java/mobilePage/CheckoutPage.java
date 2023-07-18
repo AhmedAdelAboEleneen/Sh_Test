@@ -38,6 +38,9 @@ public class CheckoutPage extends MobilePageBase{
     @AndroidFindBy(id = "com.mnasat.nashmi:id/tv_total_price")
     private MobileElement totalPrice;
 
+    @AndroidFindBy (id = "com.mnasat.nashmi:id/pay_first_flow")
+    private MobileElement placeOrderBtnPharmacy;
+
   //  public MobileElement paymentMethods = (MobileElement) driver.findElements(By.id("com.mnasat.nashmi:id/rv_payment"));
 
 
@@ -87,5 +90,8 @@ public class CheckoutPage extends MobilePageBase{
 
     }
 
+    public void clickplaceOrderBtnPharmacy(){
+        placeOrderBtnPharmacy.click();
+    }
 
 }
