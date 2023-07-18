@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="commit 2">
+    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="food cycle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutScreenPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/OrderDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/OrderDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/FoodOrderDeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/FoodOrderDeliveryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/NormalOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/NormalOrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/CheckoutScreenPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/OrderDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/OrderDetailsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +33,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -187,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687098360860</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="food cycle">
+      <created>1688384475074</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688384475074</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +199,8 @@
     <MESSAGE value="food order updates" />
     <MESSAGE value="commit name" />
     <MESSAGE value="commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
+    <MESSAGE value="food cycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="food cycle" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

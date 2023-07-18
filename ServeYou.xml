@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Serve You_Order" >
+    <test name="HappyScenario" >
+        <classes>
+            <class name="mobileTest.LoginTest" />
+            <class name="mobileTest.ServeYouTest" />
+            <class name="webTest.loginTest" />
+            <class name="webTest.homeTest" />
+            <class name="webTest.allOrdersTest" />
+            <class name="webTest.orderDetailsTest" />
+        </classes>
+    </test>
+</suite>

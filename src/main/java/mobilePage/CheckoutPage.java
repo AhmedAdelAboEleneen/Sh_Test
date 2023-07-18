@@ -11,6 +11,8 @@ public class CheckoutPage extends MobilePageBase{
     public String OrderPrice;
     public String DeliveryFee;
     public String DeliveryFeeBeforeDiscount;
+
+    public String TotalOrderPrice;
     public CheckoutPage(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
@@ -29,6 +31,9 @@ public class CheckoutPage extends MobilePageBase{
 
     @AndroidFindBy (id = "com.mnasat.nashmi:id/tv_delivery_before_discount")
     private MobileElement deliveryFeeBeforeDiscount;
+
+    @AndroidFindBy(id="tv_total_price")
+    private MobileElement totalPrice;
 
 
     //operations
@@ -58,6 +63,13 @@ public class CheckoutPage extends MobilePageBase{
     public void getDeliveryFeeBeforeDiscount (){
         DeliveryFeeBeforeDiscount = deliveryFeeBeforeDiscount.getText();
         System.out.println(DeliveryFeeBeforeDiscount);
+
+    }
+
+    public void getTotalAmount(){
+        TotalOrderPrice= totalPrice.getText();
+        System.out.println(TotalOrderPrice);
+
 
     }
 
