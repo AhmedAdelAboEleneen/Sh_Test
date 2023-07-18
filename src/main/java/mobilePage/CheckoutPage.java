@@ -5,23 +5,26 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 
 public class CheckoutPage extends MobilePageBase{
     public String OrderPrice;
     public String DeliveryFee;
+    public String TotalAmount;
     public String DeliveryFeeBeforeDiscount;
-
-    public String TotalOrderPrice;
     public CheckoutPage(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
-    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]")
+    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]")
     private MobileElement cashCheckBtn;
 
 
     @AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.Button")
     private MobileElement placeOrderBtn;
+
+    @AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.Button")
+    private MobileElement placeOrderBt;
 
     @AndroidFindBy (id = "com.mnasat.nashmi:id/tv_price_before_discount")
     public MobileElement orderPrice;
@@ -32,14 +35,19 @@ public class CheckoutPage extends MobilePageBase{
     @AndroidFindBy (id = "com.mnasat.nashmi:id/tv_delivery_before_discount")
     private MobileElement deliveryFeeBeforeDiscount;
 
-    @AndroidFindBy(id="tv_total_price")
+    @AndroidFindBy(id = "com.mnasat.nashmi:id/tv_total_price")
     private MobileElement totalPrice;
+
+  //  public MobileElement paymentMethods = (MobileElement) driver.findElements(By.id("com.mnasat.nashmi:id/rv_payment"));
+
+
+
 
 
     //operations
 
     public void checkCashPaymentMethod (){
-        cashCheckBtn.click();
+       cashCheckBtn.click();
 
     }
 
@@ -66,14 +74,18 @@ public class CheckoutPage extends MobilePageBase{
 
     }
 
-    public void getTotalAmount(){
-        TotalOrderPrice= totalPrice.getText();
-        System.out.println(TotalOrderPrice);
-
+    //for Supermarket TotalPrice
+    public void getTotalAmount (){
+        TotalAmount = totalPrice.getText();
+        System.out.println(TotalAmount);
 
     }
 
+   //for Supermarket place order
+    public void placeSupermarketOrder (){
+        placeOrderBt.click();
 
+    }
 
 
 }

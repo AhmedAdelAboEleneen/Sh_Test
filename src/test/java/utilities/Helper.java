@@ -12,6 +12,10 @@ public class Helper {
     private static Helper scrollDown = null;
     private JavascriptExecutor js;
 
+    private Helper() {
+        js = (JavascriptExecutor) driver;
+    }
+
     public static synchronized Helper getInstance()
     {
         if (scrollDown == null)
@@ -19,12 +23,13 @@ public class Helper {
 
         return scrollDown;
     }
-
-
-
     public void scrollDown() {
         js.executeScript("scrollBy(0,500)");
     }
+
+
+
+
 
 
 

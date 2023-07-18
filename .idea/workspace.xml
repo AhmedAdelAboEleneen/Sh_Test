@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="food cycle">
+    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="supermarket order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2PvXZEXdT7CdVEuttq3uAgJvqqx" />
@@ -32,17 +40,17 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ibrahim Salah\IdeaProjects\Agent_Dashboard\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/SupermarketOrder.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -50,26 +58,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/FoodOrderDelivery.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Shgardi_project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/FoodOrderDelivery.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/NormalOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Shgardi_project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/NormalOrder.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,6 +75,16 @@
     <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Agent_Dashboard" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/NormalOrder.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/SupermarketOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/SupermarketOrder.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -112,13 +110,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SupermarketTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobileTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobileTest" />
+      <option name="MAIN_CLASS_NAME" value="mobileTest.SupermarketTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/SupermarketOrder.xml" />
+        <item itemvalue="TestNG.SupermarketTest" />
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" />
         <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml" />
         <item itemvalue="TestNG.NormalOrderTest" />
-        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" />
-        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/FoodOrderDelivery.xml" />
-        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/NormalOrder.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +195,35 @@
       <option name="project" value="LOCAL" />
       <updated>1688384475074</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="supermarket order">
+      <created>1688990897112</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688990897112</updated>
+    </task>
+    <task id="LOCAL-00009" summary="supermarket order">
+      <created>1689236824039</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689236824039</updated>
+    </task>
+    <task id="LOCAL-00010" summary="supermarket order">
+      <created>1689237032084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689237032084</updated>
+    </task>
+    <task id="LOCAL-00011" summary="supermarket order">
+      <created>1689251662953</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689251662953</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +243,8 @@
     <MESSAGE value="commit name" />
     <MESSAGE value="commit 2" />
     <MESSAGE value="food cycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="food cycle" />
+    <MESSAGE value="supermarket order" />
+    <option name="LAST_COMMIT_MESSAGE" value="supermarket order" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
