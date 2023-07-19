@@ -3,9 +3,7 @@ package mobilePage;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
 
 import java.util.concurrent.TimeUnit;
@@ -53,6 +51,8 @@ public class HomePage extends MobilePageBase{
     @AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]")
     private MobileElement supermarketIndustry;
 
+    @AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+    private MobileElement allowNotificationBt;
 
 
 
@@ -117,6 +117,9 @@ public class HomePage extends MobilePageBase{
 
     }
 
+    public void clickAllowNotification(){
+        allowNotificationBt.click();
+    }
     public void selectSendPackage() {
 
         //TouchAction action = new TouchAction(driver);

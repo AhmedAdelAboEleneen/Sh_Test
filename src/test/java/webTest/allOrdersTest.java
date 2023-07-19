@@ -11,13 +11,16 @@ public class allOrdersTest extends WebTestBase {
 
     allOrdersPage allOrdersPage;
     Helper helper;
-    JavascriptExecutor js;
+    //JavascriptExecutor js;
 
+    public void scrollDown(){
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    js.executeScript("scrollBy(0,500)");}
 
     @Test
     public void openOrderDeatails() throws InterruptedException {
         allOrdersPage = new allOrdersPage(driver);
-        helper = new Helper();
+        helper = Helper.getInstance();
         driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
         allOrdersPage.openAdvancedSearch();
         Thread.sleep(3000);

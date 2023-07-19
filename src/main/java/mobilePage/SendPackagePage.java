@@ -3,10 +3,8 @@ package mobilePage;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
-import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
-import org.openqa.selenium.interactions.touch.TouchActions;
 
 public class SendPackagePage extends MobilePageBase {
     public SendPackagePage(AppiumDriver<MobileElement> driver) {

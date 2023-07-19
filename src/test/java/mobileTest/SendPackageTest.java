@@ -24,7 +24,7 @@ public class SendPackageTest extends MobileTestBase {
         checkoutPage = new CheckoutPage(driver);
         sendPackagePage = new SendPackagePage(driver);
         trackOrderPage = new TrackOrderPage(driver);
-        helper = new Helper();
+        helper = Helper.getInstance();
         homePage.selectSendPackage();
         sendPackagePage.clickEnterLocationTo();
         sendPackagePage.clickChooseOnMapBtn();
@@ -40,7 +40,8 @@ public class SendPackageTest extends MobileTestBase {
         //driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Next\").instance(0))").click();
         serviceFee = sendPackagePage.getServiceFee();
         sendPackagePage.clickNextBtn();
-        checkoutPage.checkCashPaymentMethod();
+        Thread.sleep(3000);
+        checkoutPage.selectCashPaymentMethod();
         checkoutPage.getDeliveryFee();
         helper.scrollDownIntoMobileView(driver ,"\"Total Amount\"");
         checkoutPage.getTotalAmount();

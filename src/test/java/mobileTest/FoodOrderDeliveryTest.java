@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class FoodOrderDeliveryTest extends MobileTestBase{
     HomePage homePage;
     StoreScreenPage storeScreenPage;
-    CartScreenPage cartScreenPage;
+    FoodCartPage cartScreenPage;
     CheckoutPage checkoutPage;
     TrackOrderPage trackOrderPage;
 
@@ -28,7 +28,7 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
     public void foodOrderDelivery () throws InterruptedException {
         homePage = new HomePage((AppiumDriver<MobileElement>) driver);
         storeScreenPage = new StoreScreenPage((AppiumDriver<MobileElement>) driver);
-        cartScreenPage = new CartScreenPage((AppiumDriver<MobileElement>) driver);
+        cartScreenPage = new FoodCartPage((AppiumDriver<MobileElement>) driver);
         checkoutPage = new CheckoutPage((AppiumDriver<MobileElement>) driver);
         trackOrderPage = new TrackOrderPage((AppiumDriver<MobileElement>) driver);
         homePage.clickSearchBar();

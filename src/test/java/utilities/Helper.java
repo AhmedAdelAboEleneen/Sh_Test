@@ -10,9 +10,15 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
+import static webTest.WebTestBase.driver;
+
 public class Helper {
     private static Helper scrollDown = null;
     private JavascriptExecutor js;
+
+    private Helper() {
+        js = (JavascriptExecutor) driver;
+    }
 
     public static synchronized Helper getInstance() {
         if (scrollDown == null)
@@ -44,6 +50,10 @@ public class Helper {
         return driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(" + text + ").instance(0))");
 
     }
+
+
+
+
 
     public void zoomOut() {
         js.executeScript("document.body.style.zoom='70%'");

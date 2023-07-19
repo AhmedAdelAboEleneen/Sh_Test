@@ -4,9 +4,9 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class CartScreenPage extends MobilePageBase{
+public class FoodCartPage extends MobilePageBase{
    public String TotalPrice;
-    public CartScreenPage(AppiumDriver<MobileElement> driver) {
+    public FoodCartPage(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
 
@@ -22,11 +22,9 @@ public class CartScreenPage extends MobilePageBase{
 
     }
 
-    public String getTotalPrice (){
+    public void getTotalPrice (){
          TotalPrice = totalPrice.getText();
         System.out.println(TotalPrice);
-
-        return TotalPrice;
 
     }
 }
