@@ -11,10 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import webTest.homeTest;
-import webTest.WebTestBase;
-import webTest.allOrdersTest;
-import webTest.loginTest;
+
 
 import java.time.Duration;
 
@@ -22,14 +19,10 @@ import java.time.Duration;
 public class PharmacyOrderTest extends MobileTestBase{
 
     public AndroidTouchAction actions;
-    SplashPage splashPage;
-    LoginPage loginPage;
     HomePage homePage;
     PharmacyPage pharmacyPage;
     CheckoutPage checkoutPage;
-    VerfiyEmailPage verfiyEmailPage;
     CartScreenPage cartScreenPage;
-    allOrdersTest  allOreders;
     TrackOrderPage trackOrder;
 
 
@@ -47,23 +40,13 @@ public class PharmacyOrderTest extends MobileTestBase{
     @Test
     public void pharmacyOrder() throws InterruptedException {
 
-        splashPage = new SplashPage((AppiumDriver<MobileElement>) driver);
-        loginPage = new LoginPage((AppiumDriver<MobileElement>) driver);
+
         homePage= new HomePage((AppiumDriver<MobileElement>) driver);
         pharmacyPage = new PharmacyPage((AppiumDriver<MobileElement>) driver);
         checkoutPage = new CheckoutPage((AppiumDriver<MobileElement>) driver);
-        verfiyEmailPage = new VerfiyEmailPage((AppiumDriver<MobileElement>) driver);
         cartScreenPage = new CartScreenPage((AppiumDriver<MobileElement>) driver);
         trackOrder = new TrackOrderPage((AppiumDriver<MobileElement>) driver);
-        splashPage.clickSkip();
-        loginPage.openCountryCodeList();
-        loginPage.selectEgyptCode();
-        loginPage.enterUserPhoneNumber("01033303330");
-        loginPage.clickContinue();
-        loginPage.enterUserPassword("123456");
-        loginPage.clickConfirmToLogin();
-        //verfiyEmailPage.clickVerifyLater();
-        homePage.enableAppLocation();
+
         homePage.clickAllowNotification();
         // one location saved
        // homePage.clickConfirmLocation();
@@ -94,14 +77,6 @@ public class PharmacyOrderTest extends MobileTestBase{
         checkoutPage.clickplaceOrderBtnPharmacy();
         trackOrder.getOrderNumber();
 
-        WebTestBase testBase = new WebTestBase();
-        testBase.startDriver("chrome");
-        Thread.sleep(3000);
-        new loginTest().login();
-        new homeTest().openOrders();
-        Thread.sleep(3000);
-        allOreders = new allOrdersTest();
-        allOreders.openOrderDeatails();
 
 
     }

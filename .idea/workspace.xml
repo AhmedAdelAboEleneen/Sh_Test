@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="Pharmacy Order" />
+    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="Pharmacy Order">
+      <change afterPath="$PROJECT_DIR$/PharmacyOrder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/MobileTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/MobileTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/PharmacyOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/PharmacyOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/MobileTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/MobileTestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/PharmacyOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/PharmacyOrderTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +59,7 @@
       <recent name="mobileTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PharmacyOrderTest.pharmacyOrder">
+  <component name="RunManager" selected="TestNG.D:/ShgardiProjects/SH_Git/PharmacyOrder.xml">
     <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Agent_Dashboard" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/FoodOrderDelivery.xml" />
@@ -63,9 +70,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/SupermarketOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Agent_Dashboard" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/NormalOrder.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/SupermarketOrder.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -73,9 +80,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/SupermarketOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/ShgardiProjects/SH_Git/PharmacyOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Agent_Dashboard" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/SupermarketOrder.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/PharmacyOrder.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -120,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/ShgardiProjects/SH_Git/PharmacyOrder.xml" />
         <item itemvalue="TestNG.PharmacyOrderTest.pharmacyOrder" />
         <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/SupermarketOrder.xml" />
         <item itemvalue="TestNG.SupermarketTest" />
         <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" />
-        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689670104844</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Pharmacy Order">
+      <created>1690191074872</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690191074872</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
