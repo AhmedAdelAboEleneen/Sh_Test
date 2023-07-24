@@ -29,9 +29,9 @@ public class MobileTestBase {
 
         AndroidObject.setCapability("platformName", "Android");
 
-        AndroidObject.setCapability("platformVersion", "12.0");
+        AndroidObject.setCapability("platformVersion", "11.0");
 
-        AndroidObject.setCapability("deviceName", "Galaxy A72");
+        AndroidObject.setCapability("deviceName", "khalifa");
 
         AndroidObject.setCapability("automationName", "UiAutomator2");
 

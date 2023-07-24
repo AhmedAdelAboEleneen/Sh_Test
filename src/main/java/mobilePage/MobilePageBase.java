@@ -14,5 +14,4 @@ public class MobilePageBase {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
         this.driver = driver;
     }
-
 }

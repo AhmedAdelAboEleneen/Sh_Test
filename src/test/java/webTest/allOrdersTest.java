@@ -3,7 +3,9 @@ package webTest;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import mobilePage.TrackOrderPage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import webPage.allOrdersPage;
 import utilities.Helper;
@@ -13,11 +15,14 @@ public class allOrdersTest extends WebTestBase {
 
     allOrdersPage allOrdersPage;
     Helper helper;
-    //JavascriptExecutor js;
+    JavascriptExecutor js;
+    private By view= By.id("btn_search");
 
-    public void scrollDown(){
-    JavascriptExecutor js = (JavascriptExecutor) driver;
-    js.executeScript("scrollBy(0,500)");}
+    public void scrollToView(){
+        WebElement tableElement= driver.findElement(view);
+        String script= "arguments[0].scrollIntoView();";
+        ((JavascriptExecutor)driver).executeScript(script, tableElement);
+    }
 
 
 
@@ -34,7 +39,8 @@ public class allOrdersTest extends WebTestBase {
         allOrdersPage.uncheckDelivering();
         //allOrdersPage.checkDelivered();
         allOrdersPage.clickSearch();
-        scrollDown();
+       // helper.scrollDown();
+    scrollToView();
         allOrdersPage.openOrderDetails();
         
 
