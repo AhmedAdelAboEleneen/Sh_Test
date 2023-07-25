@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Agent_Dashboard" />
         <module name="Shgardi_project" />
+        <module name="Sh_Test" />
       </profile>
     </annotationProcessing>
   </component>

@@ -29,15 +29,16 @@ public class MobileTestBase {
 
         AndroidObject.setCapability("platformName", "Android");
 
-        AndroidObject.setCapability("platformVersion", "11.0");
+        AndroidObject.setCapability("platformVersion", "12.0");
 
-        AndroidObject.setCapability("deviceName", "khalifa");
+        AndroidObject.setCapability("deviceName", "Galaxy A72");
 
         AndroidObject.setCapability("automationName", "UiAutomator2");
 
         AndroidObject.setCapability("appPackage", "com.mnasat.nashmi");
 
         AndroidObject.setCapability("appActivity", "com.mnasat.nashmi.presentation.splash.SplashActivity");
+        AndroidObject.setCapability("autoGrantPermissions", "true");
 
         driver = new AndroidDriver <WebElement>(new URL("http://localhost:4723/"), AndroidObject);
 //        driver= (AndroidDriver) new AndroidDriver(new URL("http://localhost:4723/wd/hub"), AndroidObject);

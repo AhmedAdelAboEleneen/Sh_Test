@@ -3,7 +3,6 @@ package mobileTest;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import mobilePage.*;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;

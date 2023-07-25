@@ -28,7 +28,7 @@ public class LoginTest extends MobileTestBase{
         loginPage.clickContinue();
         loginPage.enterUserPassword("123456");
         loginPage.clickConfirmToLogin();
-        homePage.enableAppLocation();
+       //homePage.enableAppLocation();
         homePage.confirmSimilarLocation();
 }
 }

@@ -2,21 +2,23 @@ package mobilePage;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
-import org.openqa.selenium.interactions.Actions;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CheckoutPage extends MobilePageBase{
+    public static String TotalAmount;
     public String OrderPrice;
-    public String DeliveryFee;
-    public String TotalAmount;
+    public static String DeliveryFee;
     public String DeliveryFeeBeforeDiscount;
     public CheckoutPage(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
-    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]")
+
+
+    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.ImageView")
     private MobileElement cashCheckBtn;
 
 
@@ -46,8 +48,12 @@ public class CheckoutPage extends MobilePageBase{
 
 
 
+    public void selectCashPaymentMethod() {
 
-    //operations
+        MobileElement cashPaymentBtn = driver.findElement(By.xpath("//*[@text='Cash']"));
+        cashPaymentBtn.click();
+    }
+        //operations
 
     public void checkCashPaymentMethod (){
        cashCheckBtn.click();
@@ -76,6 +82,7 @@ public class CheckoutPage extends MobilePageBase{
         System.out.println(DeliveryFeeBeforeDiscount);
 
     }
+
 
     //for Supermarket TotalPrice
     public void getTotalAmount (){

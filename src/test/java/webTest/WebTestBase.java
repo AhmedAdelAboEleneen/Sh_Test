@@ -1,10 +1,14 @@
 package webTest;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import java.util.concurrent.TimeUnit;
 public class WebTestBase {
@@ -38,7 +42,7 @@ public class WebTestBase {
         // driver.navigate().to("Link live here");
     }
 
-    //  @AfterTest
+    @AfterTest
     public void stopDriver() {
 
         driver.quit();

@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import webPage.allOrdersPage;
 import utilities.Helper;
+
+
 import java.util.concurrent.TimeUnit;
 
 public class allOrdersTest extends WebTestBase {
@@ -24,14 +26,13 @@ public class allOrdersTest extends WebTestBase {
         ((JavascriptExecutor)driver).executeScript(script, tableElement);
     }
 
-
-
-@Test
-    public void openOrderDeatails () throws InterruptedException {
+    @Test
+    public void openOrderDeatails() throws InterruptedException {
         allOrdersPage = new allOrdersPage(driver);
-    driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
-    allOrdersPage.openAdvancedSearch();
-    Thread.sleep(3000);
+        helper = Helper.getInstance();
+        driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
+        allOrdersPage.openAdvancedSearch();
+        Thread.sleep(3000);
         allOrdersPage.setOrderNumber();
         allOrdersPage.openOrderStatusSection();
         allOrdersPage.uncheckDriverAssigned();
@@ -39,10 +40,12 @@ public class allOrdersTest extends WebTestBase {
         allOrdersPage.uncheckDelivering();
         //allOrdersPage.checkDelivered();
         allOrdersPage.clickSearch();
-       // helper.scrollDown();
-    scrollToView();
+        Thread.sleep(3000);
+        helper.scrollDownIntoWebView(allOrdersPage.detailsView, driver);
         allOrdersPage.openOrderDetails();
-        
+        Thread.sleep(3000);
+        helper.switchToWindow(driver ,1);
+
 
  //  Assert.assertTrue(allOrdersPage.orderType.getText().contains("Order Type"));
 

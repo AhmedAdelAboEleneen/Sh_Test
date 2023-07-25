@@ -3,7 +3,6 @@ package mobilePage;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import org.openqa.selenium.support.FindBy;
 
 public class SplashPage extends MobilePageBase {
 
