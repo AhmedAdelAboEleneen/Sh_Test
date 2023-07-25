@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="SendPackage Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/webPage/OrderDetailsWebPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webTest/OrderDetailsTest.java" afterDir="false" />
+    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="Pharmacy Order">
+      <change afterPath="$PROJECT_DIR$/PharmacyOrder.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/MobileTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/MobileTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/SendPackageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/SendPackageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTest/WebTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/WebTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/PharmacyOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/PharmacyOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/MobileTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/MobileTestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/WebTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/WebTestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/PharmacyOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/PharmacyOrderTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Sh_Test&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ibrahim Salah\IdeaProjects\Agent_Dashboard\target" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mobilePage" />
+      <recent name="mobileTest" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Sh_Test/SendPackage.xml">
-    <configuration name="D:/Sh_Test/SendPackage.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Sh_Test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/SendPackage.xml" />
+  <component name="RunManager" selected="TestNG.D:/ShgardiProjects/SH_Git/PharmacyOrder.xml">
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/FoodOrderDelivery.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -76,8 +70,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.logIN" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Sh_Test" />
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/SupermarketOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/SupermarketOrder.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/ShgardiProjects/SH_Git/PharmacyOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/PharmacyOrder.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PharmacyOrderTest.pharmacyOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mobileTest.*" />
@@ -85,8 +99,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mobileTest" />
-      <option name="MAIN_CLASS_NAME" value="mobileTest.LoginTest" />
-      <option name="METHOD_NAME" value="logIN" />
+      <option name="MAIN_CLASS_NAME" value="mobileTest.PharmacyOrderTest" />
+      <option name="METHOD_NAME" value="pharmacyOrder" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,53 +108,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderDetailsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Sh_Test" />
+    <configuration name="SupermarketTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webTest.*" />
+          <option name="PATTERN" value="mobileTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webTest" />
-      <option name="MAIN_CLASS_NAME" value="webTest.OrderDetailsTest" />
+      <option name="PACKAGE_NAME" value="mobileTest" />
+      <option name="MAIN_CLASS_NAME" value="mobileTest.SupermarketTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderDetailsTest.assertOnOrderDetails" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Sh_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTest" />
-      <option name="MAIN_CLASS_NAME" value="webTest.OrderDetailsTest" />
-      <option name="METHOD_NAME" value="assertOnOrderDetails" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SendPackageTest.placeSendPackageOrder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Sh_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobileTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mobileTest" />
-      <option name="MAIN_CLASS_NAME" value="mobileTest.SendPackageTest" />
-      <option name="METHOD_NAME" value="placeSendPackageOrder" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Sh_Test/SendPackage.xml" />
-        <item itemvalue="TestNG.OrderDetailsTest.assertOnOrderDetails" />
-        <item itemvalue="TestNG.OrderDetailsTest" />
-        <item itemvalue="TestNG.LoginTest.logIN" />
-        <item itemvalue="TestNG.SendPackageTest.placeSendPackageOrder" />
+        <item itemvalue="TestNG.D:/ShgardiProjects/SH_Git/PharmacyOrder.xml" />
+        <item itemvalue="TestNG.PharmacyOrderTest.pharmacyOrder" />
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/SupermarketOrder.xml" />
+        <item itemvalue="TestNG.SupermarketTest" />
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -215,14 +193,56 @@
       <option name="project" value="LOCAL" />
       <updated>1688384475074</updated>
     </task>
-    <task id="LOCAL-00008" summary="SendPackage Test">
-      <created>1689256531086</created>
+    <task id="LOCAL-00008" summary="supermarket order">
+      <created>1688990897112</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1689256531086</updated>
+      <updated>1688990897112</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="supermarket order">
+      <created>1689236824039</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689236824039</updated>
+    </task>
+    <task id="LOCAL-00010" summary="supermarket order">
+      <created>1689237032084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689237032084</updated>
+    </task>
+    <task id="LOCAL-00011" summary="supermarket order">
+      <created>1689251662953</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689251662953</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Pharmacy Order">
+      <created>1689670088842</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689670088842</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Pharmacy Order">
+      <created>1689670104844</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689670104844</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Pharmacy Order">
+      <created>1690191074872</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690191074872</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,8 +261,9 @@
     <MESSAGE value="commit name" />
     <MESSAGE value="commit 2" />
     <MESSAGE value="food cycle" />
-    <MESSAGE value="SendPackage Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="SendPackage Test" />
+    <MESSAGE value="supermarket order" />
+    <MESSAGE value="Pharmacy Order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pharmacy Order" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
