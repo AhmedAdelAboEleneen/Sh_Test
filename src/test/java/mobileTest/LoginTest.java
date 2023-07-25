@@ -24,9 +24,9 @@ public class LoginTest extends MobileTestBase{
         splashPage.clickSkip();
         loginPage.openCountryCodeList();
         loginPage.selectEgyptCode();
-        loginPage.enterUserPhoneNumber("01119283012");
+        loginPage.enterUserPhoneNumber("01150300594");
         loginPage.clickContinue();
-        loginPage.enterUserPassword("12345678");
+        loginPage.enterUserPassword("123456");
         loginPage.clickConfirmToLogin();
        //homePage.enableAppLocation();
         homePage.confirmSimilarLocation();

@@ -3,6 +3,7 @@ package utilities;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.*;
 
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Path;
@@ -26,10 +27,7 @@ public class Helper {
 
         return scrollDown;
     }
-
-
     public void scrollDown() {
-
         js.executeScript("scrollBy(0,500)");
     }
 
@@ -58,7 +56,7 @@ public class Helper {
     public void zoomOut() {
         js.executeScript("document.body.style.zoom='70%'");
     }
-
+    
     // Method to take screen shoot when test case fail
     public static void caputreScreenShoot(WebDriver driver, String screenShootName) {
         Path dest = Paths.get("./ScreenShoot/ScreenShoot" + screenShootName + ".png");

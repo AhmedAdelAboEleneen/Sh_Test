@@ -1,12 +1,17 @@
 package mobileTest;
 
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import utilities.Helper;
 
 import java.net.MalformedURLException;
@@ -26,7 +31,7 @@ public class MobileTestBase {
 
         AndroidObject.setCapability("platformVersion", "12.0");
 
-        AndroidObject.setCapability("deviceName", "Galaxy A52");
+        AndroidObject.setCapability("deviceName", "Galaxy A72");
 
         AndroidObject.setCapability("automationName", "UiAutomator2");
 
@@ -51,11 +56,11 @@ public class MobileTestBase {
         driver = new IOSDriver<WebElement>(new URL("http://localhost:4723/wd/hub"), iOSObject);
     }*/
 
-  /*  @AfterSuite
-   public void stopDriver() {
-
-        driver.quit();
-    }*/
+//    @AfterSuite
+//    public void stopDriver() {
+//
+//        driver.quit();
+//    }
 
     //Take Screenshot when test case fail and add it in screenshot folder
     @AfterMethod
@@ -70,5 +75,4 @@ public class MobileTestBase {
         }
 
     }
-
 }

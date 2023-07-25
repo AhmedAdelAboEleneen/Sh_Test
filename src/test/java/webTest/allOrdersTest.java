@@ -1,9 +1,15 @@
 package webTest;
 
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import mobilePage.TrackOrderPage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import utilities.Helper;
 import webPage.allOrdersPage;
+import utilities.Helper;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,11 +17,14 @@ public class allOrdersTest extends WebTestBase {
 
     allOrdersPage allOrdersPage;
     Helper helper;
-    //JavascriptExecutor js;
+    JavascriptExecutor js;
+    private By view= By.id("btn_search");
 
-    public void scrollDown(){
-    JavascriptExecutor js = (JavascriptExecutor) driver;
-    js.executeScript("scrollBy(0,500)");}
+    public void scrollToView(){
+        WebElement tableElement= driver.findElement(view);
+        String script= "arguments[0].scrollIntoView();";
+        ((JavascriptExecutor)driver).executeScript(script, tableElement);
+    }
 
     @Test
     public void openOrderDeatails() throws InterruptedException {
@@ -38,8 +47,7 @@ public class allOrdersTest extends WebTestBase {
         helper.switchToWindow(driver ,1);
 
 
-
-        //  Assert.assertTrue(allOrdersPage.orderType.getText().contains("Order Type"));
+ //  Assert.assertTrue(allOrdersPage.orderType.getText().contains("Order Type"));
 
     }
 }
