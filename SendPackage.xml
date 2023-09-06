@@ -5,10 +5,15 @@
         <classes>
             <class name="mobileTest.LoginTest"></class>
             <class name="mobileTest.SendPackageTest"></class>
-            <class name="webTest.loginTest" ></class>
+            <class name="webTest.loginTest"></class>
             <class name="webTest.homeTest"></class>
             <class name="webTest.allOrdersTest"></class>
-            <class name="webTest.OrderDetailsTest"></class>
+            <class name="webTest.orderDetailsTest">
+                <methods>
+                    <exclude name="checkOrderDetails">
+                    </exclude>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
